@@ -103,7 +103,7 @@ async function fetchTrash(message) {
             limit: PAGE_SIZE
         })
         const filterBotMessage = msgs
-            .filter(elem => !elem.author.bot && checkMsg(elem) === null)
+            .filter(elem => !elem.author.bot)
             .map(elem => {
                 const canObj = {
                     string: elem.content,
