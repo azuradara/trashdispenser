@@ -1,7 +1,6 @@
 const Discord = require('discord.js')
 const fs = require('fs')
 const markov_strings = require('markov-strings')
-const config = require('./data/config.json')
 const schedule = require('node-schedule')
 const client = new Discord.Client()
 const errors = []
@@ -246,5 +245,5 @@ client.on('message', message => {
     }
 })
 
-client.login(config.TOKEN)
+client.login(process.env(TOKEN))
 trashOpts = {stateSize : STATE_SIZE,}
