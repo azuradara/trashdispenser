@@ -1,0 +1,25 @@
+{
+  "name": "trashdispenser",
+  "version": "1.0.0",
+  "description": "a markov chains based discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azuradara/trashdispenser.git"
+  },
+  "author": "azuradara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azuradara/trashdispenser/issues"
+  },
+  "homepage": "https://github.com/azuradara/trashdispenser#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "fs": "0.0.1-security",
+    "markov-strings": "^3.0.1",
+    "node-schedule": "^1.3.2"
+  }
+}
