@@ -9,7 +9,7 @@ const PAGE_SIZE = 100
 
 let PREFIX = '!t'
 let STATE_SIZE = 2
-let MAX_TRIES = 50
+let MAX_TRIES = 500
 let MIN_SCORE = 10
 let GAME = '-'
 let msgObj = {messages: [],}
