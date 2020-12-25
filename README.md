@@ -1,4 +1,4 @@
 # trashdispenser
-a markov chains bot for discord (1 guild use)
+a markov chains bot (1 guild use)
 
 wip
